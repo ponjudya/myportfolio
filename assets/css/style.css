@@ -13,32 +13,20 @@
 }
 
 body {
-	background: url(assets/images/bg.jpeg);
-}
-
-#home {
-	font-size: 2em;
-
-}
-
-#about {
-	font-size: 2em;
-	
-}
-
-#contact {
-	font-size: 2em;
-	
+	/*background: url(../images/bg3.jpeg);
+	background-size: cover;
+	background-repeat: repeat;
+	background-attachment: fixed;*/
+	background-color: 	#f5f6f7;
 }
 
 ol {
-	width: 50%;
+	width: 30%;
 	list-style-type: none;
 	display: block;
-	margin: 0 auto;
+	text-align: right;
 	font-size: 10px;
 }
-
 
 li {
 
@@ -56,22 +44,36 @@ li {
 li.active, li:hover {
    /*     width: 30px  ;
         height: 30px ;*/
-        background-color: #337ab7;        
+        background-color: black; 
+        color: white;       
       }
 
 .container {
-	border: 2px solid black;
-	min-height: 95vh;
+	border: 10px groove #49311c;
+
+	min-height: 80vh;
+	margin-top: 1em;
+}
+
+#home {
+	font-size: 2em;
+	font-family: 'Lobster', cursive;
+}
+
+#about {
+	font-size: 2em;
+	font-family: 'Lobster', cursive;
+}
+
+#contact {
+	font-size: 2em;
+	font-family: 'Lobster', cursive;
 }
 
 footer {
 	height: 50px;
 }
 
-
-.carousel-caption {
-	color: black;
-}
 
 /*social links*/
 
@@ -81,10 +83,6 @@ i {
 	left: 695px;
 	
 }
-
-.gm:hover{
-	background-color: blue;
-} 
 
 .fb:hover{
 	background-color: blue;
@@ -102,34 +100,39 @@ i {
 	background-color: red;
 }
 
+.gm:hover {
+	background-color: indianred;
+}
+
+
 .fb {
 	position: absolute;
 /*	top: 90%;*/
-	left: 15%;
+	left: 25%;
 }
 
 .ig {
 	position: absolute;
 	/*top: 90%;*/
-	left: 30%;
+	left: 37%;
 }
 
 .tw {
 	position: absolute;
 	/*top: 90%;*/
-	left: 50%;
+	left: 49%;
 }
 
 .yt {
 	position: absolute;
 	/*top: 90%;*/
-	left: 65%;
+	left: 60%;
 }
 
 .gm {
 	position: absolute;
 	/*top: 90%;*/
-	left: 80%;
+	left: 70%;
 }
 /*-----> end social links*/
 
@@ -141,25 +144,13 @@ i {
 	height: 80vh;
 }
 
-
 div.a {
 	text-align: right;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.tabs {
+	text-align: center;
+}
 
 
 
@@ -192,20 +183,34 @@ div.a {
 /*// Extra small devices (portrait phones, less than 576px)*/
 @media (max-width: 575.98px) { 
 
-	.top-navs {
-		font-size: 4em;
+	ol {
+		width: 100%;
 	}
+
 
  }
 
 /*// Small devices (landscape phones, 576px and up)*/
-@media (min-width: 576px) and (max-width: 767.98px) { ... }
+@media (min-width: 576px) and (max-width: 767.98px) { 
+
+	ol {
+		width: 100%;
+	}
+ }
 
 /*// Medium devices (tablets, 768px and up)*/
-@media (min-width: 768px) and (max-width: 991.98px) { ... }
+@media (min-width: 768px) and (max-width: 991.98px) {
+
+	
+
+ }
 
 /*// Large devices (desktops, 992px and up)*/
-@media (min-width: 992px) and (max-width: 1199.98px) { ... }
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+
+
+
+ }
 
 /*// Extra large devices (large desktops, 1200px and up)*/
 @media (min-width: 1200px) { ... }
